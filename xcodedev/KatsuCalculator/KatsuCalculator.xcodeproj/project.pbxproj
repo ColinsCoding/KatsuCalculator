@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8B268B42A31A8BA007B2809 /* KatsuCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B268B32A31A8BA007B2809 /* KatsuCalculatorApp.swift */; };
+		A8B268B62A31A8BA007B2809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B268B52A31A8BA007B2809 /* ContentView.swift */; };
+		A8B268B82A31A8BC007B2809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B268B72A31A8BC007B2809 /* Assets.xcassets */; };
+		A8B268BB2A31A8BC007B2809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B268BA2A31A8BC007B2809 /* Preview Assets.xcassets */; };
+		A8B268C52A31A8BC007B2809 /* KatsuCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B268C42A31A8BC007B2809 /* KatsuCalculatorTests.swift */; };
+		A8B268CF2A31A8BC007B2809 /* KatsuCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B268CE2A31A8BC007B2809 /* KatsuCalculatorUITests.swift */; };
+		A8B268D12A31A8BC007B2809 /* KatsuCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B268D02A31A8BC007B2809 /* KatsuCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8B268C12A31A8BC007B2809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B268A82A31A8BA007B2809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B268AF2A31A8BA007B2809;
+			remoteInfo = KatsuCalculator;
+		};
+		A8B268CB2A31A8BC007B2809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B268A82A31A8BA007B2809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B268AF2A31A8BA007B2809;
+			remoteInfo = KatsuCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8B268B02A31A8BA007B2809 /* KatsuCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatsuCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B268B32A31A8BA007B2809 /* KatsuCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatsuCalculatorApp.swift; sourceTree = "<group>"; };
+		A8B268B52A31A8BA007B2809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8B268B72A31A8BC007B2809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8B268BA2A31A8BC007B2809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8B268C02A31A8BC007B2809 /* KatsuCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatsuCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B268C42A31A8BC007B2809 /* KatsuCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatsuCalculatorTests.swift; sourceTree = "<group>"; };
+		A8B268CA2A31A8BC007B2809 /* KatsuCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatsuCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B268CE2A31A8BC007B2809 /* KatsuCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatsuCalculatorUITests.swift; sourceTree = "<group>"; };
+		A8B268D02A31A8BC007B2809 /* KatsuCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatsuCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8B268AD2A31A8BA007B2809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B268BD2A31A8BC007B2809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B268C72A31A8BC007B2809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8B268A72A31A8BA007B2809 = {
+			isa = PBXGroup;
+			children = (
+				A8B268B22A31A8BA007B2809 /* KatsuCalculator */,
+				A8B268C32A31A8BC007B2809 /* KatsuCalculatorTests */,
+				A8B268CD2A31A8BC007B2809 /* KatsuCalculatorUITests */,
+				A8B268B12A31A8BA007B2809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B268B12A31A8BA007B2809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B268B02A31A8BA007B2809 /* KatsuCalculator.app */,
+				A8B268C02A31A8BC007B2809 /* KatsuCalculatorTests.xctest */,
+				A8B268CA2A31A8BC007B2809 /* KatsuCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B268B22A31A8BA007B2809 /* KatsuCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				A8B268B32A31A8BA007B2809 /* KatsuCalculatorApp.swift */,
+				A8B268B52A31A8BA007B2809 /* ContentView.swift */,
+				A8B268B72A31A8BC007B2809 /* Assets.xcassets */,
+				A8B268B92A31A8BC007B2809 /* Preview Content */,
+			);
+			path = KatsuCalculator;
+			sourceTree = "<group>";
+		};
+		A8B268B92A31A8BC007B2809 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8B268BA2A31A8BC007B2809 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8B268C32A31A8BC007B2809 /* KatsuCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8B268C42A31A8BC007B2809 /* KatsuCalculatorTests.swift */,
+			);
+			path = KatsuCalculatorTests;
+			sourceTree = "<group>";
+		};
+		A8B268CD2A31A8BC007B2809 /* KatsuCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8B268CE2A31A8BC007B2809 /* KatsuCalculatorUITests.swift */,
+				A8B268D02A31A8BC007B2809 /* KatsuCalculatorUITestsLaunchTests.swift */,
+			);
+			path = KatsuCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8B268AF2A31A8BA007B2809 /* KatsuCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B268D42A31A8BC007B2809 /* Build configuration list for PBXNativeTarget "KatsuCalculator" */;
+			buildPhases = (
+				A8B268AC2A31A8BA007B2809 /* Sources */,
+				A8B268AD2A31A8BA007B2809 /* Frameworks */,
+				A8B268AE2A31A8BA007B2809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatsuCalculator;
+			productName = KatsuCalculator;
+			productReference = A8B268B02A31A8BA007B2809 /* KatsuCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8B268BF2A31A8BC007B2809 /* KatsuCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B268D72A31A8BC007B2809 /* Build configuration list for PBXNativeTarget "KatsuCalculatorTests" */;
+			buildPhases = (
+				A8B268BC2A31A8BC007B2809 /* Sources */,
+				A8B268BD2A31A8BC007B2809 /* Frameworks */,
+				A8B268BE2A31A8BC007B2809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8B268C22A31A8BC007B2809 /* PBXTargetDependency */,
+			);
+			name = KatsuCalculatorTests;
+			productName = KatsuCalculatorTests;
+			productReference = A8B268C02A31A8BC007B2809 /* KatsuCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8B268C92A31A8BC007B2809 /* KatsuCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B268DA2A31A8BC007B2809 /* Build configuration list for PBXNativeTarget "KatsuCalculatorUITests" */;
+			buildPhases = (
+				A8B268C62A31A8BC007B2809 /* Sources */,
+				A8B268C72A31A8BC007B2809 /* Frameworks */,
+				A8B268C82A31A8BC007B2809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8B268CC2A31A8BC007B2809 /* PBXTargetDependency */,
+			);
+			name = KatsuCalculatorUITests;
+			productName = KatsuCalculatorUITests;
+			productReference = A8B268CA2A31A8BC007B2809 /* KatsuCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8B268A82A31A8BA007B2809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A8B268AF2A31A8BA007B2809 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A8B268BF2A31A8BC007B2809 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A8B268AF2A31A8BA007B2809;
+					};
+					A8B268C92A31A8BC007B2809 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A8B268AF2A31A8BA007B2809;
+					};
+				};
+			};
+			buildConfigurationList = A8B268AB2A31A8BA007B2809 /* Build configuration list for PBXProject "KatsuCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8B268A72A31A8BA007B2809;
+			productRefGroup = A8B268B12A31A8BA007B2809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8B268AF2A31A8BA007B2809 /* KatsuCalculator */,
+				A8B268BF2A31A8BC007B2809 /* KatsuCalculatorTests */,
+				A8B268C92A31A8BC007B2809 /* KatsuCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B268AE2A31A8BA007B2809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B268BB2A31A8BC007B2809 /* Preview Assets.xcassets in Resources */,
+				A8B268B82A31A8BC007B2809 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B268BE2A31A8BC007B2809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B268C82A31A8BC007B2809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8B268AC2A31A8BA007B2809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B268B62A31A8BA007B2809 /* ContentView.swift in Sources */,
+				A8B268B42A31A8BA007B2809 /* KatsuCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B268BC2A31A8BC007B2809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B268C52A31A8BC007B2809 /* KatsuCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B268C62A31A8BC007B2809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B268CF2A31A8BC007B2809 /* KatsuCalculatorUITests.swift in Sources */,
+				A8B268D12A31A8BC007B2809 /* KatsuCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8B268C22A31A8BC007B2809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8B268AF2A31A8BA007B2809 /* KatsuCalculator */;
+			targetProxy = A8B268C12A31A8BC007B2809 /* PBXContainerItemProxy */;
+		};
+		A8B268CC2A31A8BC007B2809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8B268AF2A31A8BA007B2809 /* KatsuCalculator */;
+			targetProxy = A8B268CB2A31A8BC007B2809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8B268D22A31A8BC007B2809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8B268D32A31A8BC007B2809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8B268D52A31A8BC007B2809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KatsuCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Casey.KatsuCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8B268D62A31A8BC007B2809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KatsuCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Casey.KatsuCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8B268D82A31A8BC007B2809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Casey.KatsuCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatsuCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KatsuCalculator";
+			};
+			name = Debug;
+		};
+		A8B268D92A31A8BC007B2809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Casey.KatsuCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatsuCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KatsuCalculator";
+			};
+			name = Release;
+		};
+		A8B268DB2A31A8BC007B2809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Casey.KatsuCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KatsuCalculator;
+			};
+			name = Debug;
+		};
+		A8B268DC2A31A8BC007B2809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Casey.KatsuCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KatsuCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8B268AB2A31A8BA007B2809 /* Build configuration list for PBXProject "KatsuCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B268D22A31A8BC007B2809 /* Debug */,
+				A8B268D32A31A8BC007B2809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B268D42A31A8BC007B2809 /* Build configuration list for PBXNativeTarget "KatsuCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B268D52A31A8BC007B2809 /* Debug */,
+				A8B268D62A31A8BC007B2809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B268D72A31A8BC007B2809 /* Build configuration list for PBXNativeTarget "KatsuCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B268D82A31A8BC007B2809 /* Debug */,
+				A8B268D92A31A8BC007B2809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B268DA2A31A8BC007B2809 /* Build configuration list for PBXNativeTarget "KatsuCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B268DB2A31A8BC007B2809 /* Debug */,
+				A8B268DC2A31A8BC007B2809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8B268A82A31A8BA007B2809 /* Project object */;
+}
